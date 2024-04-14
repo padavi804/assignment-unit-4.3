@@ -18,17 +18,11 @@ console.log(basket);
  };
 listItems(basket);
 
-// function listItems(basket){
-//     for (let i=0; i > basket.legth; i ++);
-//     console.log('basket:', basket);
-// }
-// console.log(listItems(basket));
 
-function empty() {
-    for (i= basket.length; i =0; i--);
-    console.log(basket);
+function empty(){
+    basket.length = 0;
 }
-
+empty();
 
 // DO NOT MODIFY
 // Used for automated testing
